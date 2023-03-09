@@ -46,7 +46,7 @@ def remind(message):
 if __name__ == '__main__':
     app.run()
 
-#bot.polling() #keeps bot constantly running
+bot.polling() #keeps bot constantly running
 
 
         
