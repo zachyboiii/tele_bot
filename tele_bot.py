@@ -42,11 +42,13 @@ def remind(message):
 #def end(message):
     #bot.send_message(message.chat.id, "Bot has been terminated. \nThank you for using NYCG Special Events bot, God bless :)")
     #bot.stop_polling()
-
+    
+bot.polling() #keeps bot constantly running
+    
 if __name__ == '__main__':
     app.run()
 
-bot.polling() #keeps bot constantly running
+
 
 
         
