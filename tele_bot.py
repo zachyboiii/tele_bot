@@ -4,11 +4,11 @@ import time
 from flask import Flask
 from datetime import date
 
-app = Flask(__name__)
+#app = Flask(__name__)
 
-@app.route('/hello')
-def hello():
-    return 'Hello'
+#@app.route('/hello')
+#def hello():
+    #return 'Hello'
 
 token = "5967749948:AAHYTwy8L3bDP2sdkAEVkCgAmE3s643Fmao" 
 bot = telebot.TeleBot(token)
@@ -45,8 +45,8 @@ def remind(message):
     
 bot.polling() #keeps bot constantly running
     
-if __name__ == '__main__':
-    app.run()
+#if __name__ == '__main__':
+    #app.run()
 
 
 
